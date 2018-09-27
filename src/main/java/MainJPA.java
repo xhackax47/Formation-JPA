@@ -58,6 +58,7 @@ public class MainJPA {
         System.out.println("");
         
         DatabaseHelper.commitTxAndClose(em);
+        em.close();
 	}
 
 }
