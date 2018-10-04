@@ -8,7 +8,7 @@ import model.Gender;
 
 public class MainJPA {
 
-	public static void main(String[] args) {
+	public static void start() {
 
         EntityManager em = DatabaseHelper.createEntityManager();       
         DatabaseHelper.beginTx(em);
